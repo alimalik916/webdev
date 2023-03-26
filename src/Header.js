@@ -16,8 +16,9 @@ function Header() {
                   <p>
                     <i
                       class="fa fa-map-signs"
-                      style={{fontSize: "16px", color: "#D60B52"}}
+                      style={{fontSize: "20px", color: "#D60B52"}}
                     ></i>
+                    
                     26th St, Al Quoz 4<br />
                     Dubai, UAE
                   </p>
