@@ -7,7 +7,7 @@ function Banner(prop) {
     <>
       <section class={prop.bannerclass} style={{ backgroundImage: `url(${prop.backgroundImage})` }} >
         <div class="container">
-          <div class="row">
+          <div class="row banner">
             <h1>{prop.h1}</h1>
             <p>{prop.para}</p>
            

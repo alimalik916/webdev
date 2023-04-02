@@ -1,7 +1,9 @@
 import "./App.css";
 import Banner from "./components/banner";
-
+import Popup from "./components/Popup";
+import { useState } from "react";
 function Home() {
+  const [buttonPopup, setButtonPopup] = useState(false);
   const banner = {
     backgroundSize: "cover",
   };
@@ -15,6 +17,11 @@ function Home() {
         para="Technology rental gives you a unique chance to make your business event successful.We offer a wide range of event technology hire in the USA."
         bannerbtn="Get a Quote"
       />
+      
+      <button onClick={() => setButtonPopup(true)}>Request Quote</button>
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}></Popup>
+      <br />
+      
     </>
   );
 }
