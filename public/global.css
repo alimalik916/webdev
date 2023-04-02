@@ -93,3 +93,43 @@
 }
 
 /* header styling end  */
+
+/* banner styling starts */
+/* banner styles */
+.banner{
+    background-repeat: no-repeat;
+}
+.banner .row{
+    padding:200px 150px 200px 150px;
+}
+
+.btn.btn-primary {
+    background-color: #D60B52;
+    border: none;
+}
+.btn.btn-primary:hover {
+    background-color: #131D33;
+    border: none;
+}
+@media (max-width: 991px) {
+    .banner .row{
+        padding:60px 20px 60px 20px;
+    }
+}
+.banner h1{
+    color:white;
+    font-weight:800;
+}
+.banner p{
+    color:white;
+    font-weight:bold;
+}
+.banner .btn{
+    background-color:#C7244E;
+    border:1px solid #C7244E;
+}
+.banner .btn:hover{
+    background-color:#131D33;
+    border:1px solid white;
+}
+/* banner styling ends */
