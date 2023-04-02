@@ -98,9 +98,10 @@
 /* banner styles */
 .banner{
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .banner .row{
-    padding:200px 150px 200px 150px;
+    padding:180px 150px 180px 150px;
 }
 
 .btn.btn-primary {
@@ -113,7 +114,7 @@
 }
 @media (max-width: 991px) {
     .banner .row{
-        padding:60px 20px 60px 20px;
+        padding:70px 20px 70px 20px;
     }
 }
 .banner h1{

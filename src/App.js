@@ -1,22 +1,14 @@
 import "./App.css";
 import Header from "./Header";
-import Banner from "./components/banner";
+import Home from "./Home";
 
 function App() {
-  const banner = {
-    backgroundSize: "cover",
-  };
+ 
 
   return (
     <>
       <Header />
-      <Banner
-        backgroundImage="assets/home/Pa-system-rental.jpg"
-        bannerclass="banner"
-        h1="dadad"
-        para="data"
-        bannerbtn="Get a Quote"
-      />
+      <Home />
       {/* <BrowserRouter>
         <Routes>
           <Route path="/Home" element={<Home />} />
